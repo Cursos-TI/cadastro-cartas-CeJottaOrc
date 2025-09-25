@@ -8,7 +8,7 @@ int main() {
 
 // Mensagem de inicio
 printf("Super Trunfo Países\n");
-printf("Vamos criar uma carta agora!\n");
+printf("Vamos criar sua primeira carta!\n");
 
   // Área para definição das variáveis para armazenar as propriedades das cidades
 
@@ -43,9 +43,12 @@ float area2, pib2;
   printf("Quantos pontos turísticos tem essa cidade?\n");
   scanf("%i", &p_turistico1);
 
+//Mensagem informativa
+printf("Certo! Agora vamos para a segunda carta.\n");
+
  //CARTA 2
-  printf("Escolha uma letra de A a H para representar um estado:\n");
-  scanf("%c", &estado2);
+  printf("Escolha novamente uma letra de A a H para representar um estado:\n");
+  scanf(" %c", &estado2);
   printf("Agora digite o nome de uma cidade:\n ");
   scanf("%s", cidade2);
   printf("Qual a população dessa cidade?\n");
@@ -62,14 +65,14 @@ float area2, pib2;
   //CARTA 1
   printf("Certo! Segue as informações da CARTA N°1:\n");
   printf("Carta N°1\n");
-  printf("Estado: %c.\nCódigo: %c01.\nCidade: %s.\nPopulação: %i.\nÁrea: %.3fkm².\nPIB: %.3f bilhões de reais.\nPontos Turísticos: %i.\n"
+  printf("Estado: %c.\nCódigo: %c01.\nCidade: %s.\nPopulação: %i habitantes.\nÁrea: %.3fkm².\nPIB: %.3f bilhões de reais.\nPontos Turísticos: %i.\n"
     ,estado1,estado1,cidade1,pop1,area1,pib1,p_turistico1);
 
     //CARTA 2
 
     printf("Agora as informações da CARTA N°2:\n");
    printf("Carta N°2\n");
-   printf("Estado: %c.\nCódigo: %c02.\nCidade: %s.\nPopulação: %i.\nÁrea: %.3fkm².\nPIB: %.3f bilhões de reais.\nPontos Turísticos: %i.\n"
+   printf("Estado: %c.\nCódigo: %c02.\nCidade: %s.\nPopulação: %i habitantes.\nÁrea: %.3fkm².\nPIB: %.3f bilhões de reais.\nPontos Turísticos: %i.\n"
     ,estado2,estado2,cidade2,pop2,area2,pib2,p_turistico2);
 
 return 0;
